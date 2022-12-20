@@ -1,0 +1,202 @@
+body{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+header{
+	display: inline-flex;
+/*	flex-direction: row;
+*/
+}
+
+.logo_accueil{
+	display: flex;
+	justify-content: flex-start;
+}
+
+#inscription button, #inscription a{
+	background-color: blueviolet;
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.menu, .photocandidats{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.entete{
+	display: flex;
+	flex-direction: row;
+	background: blueviolet;
+	font-size: x-large;
+	font-display: auto;
+}
+.presentation{
+font-weight: ;
+}
+
+.formations{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+.IA, .WebCoding, .cyber{
+	border: solid;
+	margin: 5px;
+	text-align: center;
+}
+
+.presentation{
+	display: flex;
+	flex-direction: column;
+}
+
+.ia{
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+}
+
+h2{text-align: center;
+	text-decoration: underline;
+}
+
+.videos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 15px;
+}
+
+p{
+  max-width:590px;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.basdepage{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 30%;	
+	margin: auto;
+}
+
+footer{
+	background-color: grey;
+}
+
+.contact{
+	background-color: #88c1d0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.formulaire{
+	background-color: whitesmoke;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+
+input{
+	padding: ;
+}
+
+#brochure{
+	text-decoration: none;
+	margin: 15px;
+	font-family: comic sans ms;
+	font-size: 30px;
+	width: 100%;
+	justify-content: space-between;
+}
+
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.quisommesnous{
+	background-color: #FA603E;
+	display: flex;
+	flex-direction: column;
+}
+
+.paragraphes{
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
+	font-size: 20px;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.premierparagraphe{
+	max-width: 500px;
+}
+
+.deuxiemeparagraphe{
+	max-width: 500px;
+}
+
+.partenaires{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
